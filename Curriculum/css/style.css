@@ -1,0 +1,42 @@
+.letra{
+    font-family: Arial;
+}
+
+#foto {
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+    width: auto; 
+}
+
+#titulo {
+    color:blue;
+    background-color:gray;
+    text-align:center
+}
+
+.subtitulo {
+    color:blue;
+    background-color:gray
+}
+
+.cursiva {
+    font-style:italic;
+    font-weight:bold
+}
+
+.negrilla {
+    font-weight:bold
+}
+
+.tabulado{
+    margin-left: 87px;
+}
+
+
+.footer {
+    color:white;
+    background-color:blue;
+    text-align:center;
+    font-family: Arial    
+}
