@@ -9,15 +9,20 @@
     width: auto; 
 }
 
-#titulo {
-    color:blue;
-    background-color:gray;
+.titulo {
+    color:#2443aa;
+    background-color:rgb(158, 155, 155);
     text-align:center
 }
 
+.fondo{
+    background-image: url("../img/fondo.jpg")
+}
+
+
 .subtitulo {
-    color:blue;
-    background-color:gray
+    color:#2443aa;
+    background-color:rgb(158, 155, 155)
 }
 
 .cursiva {
@@ -36,7 +41,12 @@
 
 .footer {
     color:white;
-    background-color:blue;
+    background-color:#2443aa;
     text-align:center;
     font-family: Arial    
+}
+
+.fab{
+    color:white;
+    padding: 10px
 }
