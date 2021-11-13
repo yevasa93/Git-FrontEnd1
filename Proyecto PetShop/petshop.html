@@ -18,77 +18,91 @@
         <!-- barra superior negra -->
         <section class="barra-negra letra10">
             <span>Grandes ofertas en comederos</span>
-        
-            <button type="menu">Español</button>
-            <button type="menu">$ARG</button>
+            
+            <span>
+                <button type="menu">Español</button>
+                <button type="menu">$ARG</button>
+            </span>
+
 
         </section>
 
         <!-- barra de menu principal naranja -->
         
         <section class="barra-naranja">
-
             <img src="img/logonaranja.png">
 
-            <a class="letra13"><i class="fas fa-paw"></i>Categorias</a>
-            <a class="letra13"><i class="fas fa-paw"></i>Pets</a>
-            <a class="letra13"><i class="fas fa-paw"></i>Nosotros</a>
-            <a class="letra13"><i class="fas fa-paw"></i>Contactos</a>
+            <section>
+                <a class="letra13"><i class="fas fa-paw"></i>Categorias</a>
+                <a class="letra13"><i class="fas fa-paw"></i>Pets</a>
+                <a class="letra13"><i class="fas fa-paw"></i>Nosotros</a>
+                <a class="letra13"><i class="fas fa-paw"></i>Contactos</a>
+            </section>
 
         </section>
-        
-                
+                        
     </header>
-
 
     <main>
         <!-- seccion banner -->
+        <section class="banner-imagen">
+            <section class="banner-interno">
+                <p class="fraseletra30 letracafe">¡Es un placer tenerte aquí!</p>
+                <p class="letracafe">¡Comederos en descuento!</p>
+                <button class="boton-comederos letra15">COMEDEROS</button>
+            </section>
 
-        <p class="letra30 letracafe">¡Es un placer tenerte aquí!</p>
+        </section>
 
-        <section class="banner">
-
-            <p class="letracafe">¡Comederos en descuento!</p>
-            <button class="boton-comederos">COMEDEROS</button>
+        <!-- seccion media de productos -->
+        <section class="seccion-media">
+            <img src="img/patita.png" class="huella-grande-naranja">
+            <p class="letracafe letra40 negrilla">Productos Destacados</p>
+            
+            <section>
+                <a class="letra15">Comederos</a><span> - </span>
+                <a class="letra15">Accesorios</a><span> - </span>
+                <a class="letra15">Comida</a>
+            </section>
 
         </section>
 
         <!-- seccion productos -->
-        <section>
+        <section class="productos">
+            <section class="tarjeta">
+                <img src="img/churrasquito.png" class="img-producto">
+                <p class="letra15 letracefe">Jeguete Churrasquito</p>
+                <p class="letra15 letranaranja">$150</p>
+            </section>
 
-            <img src="img/patita.png" class="huella-grande-naranja">
-            <p class="letracafe letra40 negrilla">Productos Destacados</p>
-            
-            <a class="letra15">Comederos</a><span> - </span>
-            <a class="letra15">Accesorios</a><span> - </span>
-            <a class="letra15">Comida</a>
+            <section class="tarjeta">
+                <img src="img/comedero.png" class="img-producto">
+                <p class="letra15 letracefe">Comedero para Perro</p>
+                <p class="letra15 letranaranja">$250</p>
+            </section>
 
-            <br>
+            <section class="tarjeta">
+                <img src="img/huesito.png" class="img-producto">
+                <p class="letra15 letracefe">Juguete Huesito</p>
+                <p class="letra15 letranaranja">$650</p>
+            </section>
 
-            <img src="img/producto1.png">
-            <p class="letra15 letracefe">Jeguete Churrasquito</p>
-            <p class="letra15 letranaranja">$150</p>
-
-            <img src="img/producto2.png">
-            <p class="letra15 letracefe">Comedero para Perro</p>
-            <p class="letra15 letranaranja">$250</p>
-
-            <img src="img/producto3.png">
-            <p class="letra15 letracefe">Juguete Huesito</p>
-            <p class="letra15 letranaranja">$650</p>
 
         </section>
 
-        <!-- seccion de contactos -->
-        <section>
-            <p>Contactanos</p>
+        <!-- seccion contactanos -->
+        <section class="contactanos">
+            <p class="letra25 letracafe negrilla">Contáctanos</p>
 
             <p>Nombre y Apellido</p>
             <p>Ingresa tu correo Electronico</p>
             <p>telefono</p>
 
-            <button>Resetear</button>
-            <button>Enviar</button>
+            <section>
+                <button class="boton-resetear">Resetear</button>
+                <button class="boton-enviar">Enviar</button>
+            </section>
+
         </section>
 
     </main>
@@ -96,26 +110,50 @@
     <footer>
         <!-- barra naranja inferior de correo para novedades -->
         <section class="barra-naranja-inferior">
-            <i class="far fa-envelope"></i><span class="negrilla">Suscribete para más nobedades</span>
-            <span>Ingresa tu correo electronico</span>
-            <button>Suscribirme</button>
+            <section>
+                <i class="far fa-envelope"></i>
+                <a class="negrilla">Suscribete para más nobedades</a>
+            </section>
+            
+            <section>
+                <span>Ingresa tu correo electronico</span>
+                <button class="boton-suscribirme">Suscribirme</button>
+            </section>
+
         </section>
 
         <!-- Informacion general localidad, telefono y correo -->
-        <section class="informacion">
-            <button Class="boton-circular"><i class="fas fa-map-marker-alt"></i></button>
-            <p class="negrilla">Localidad</p>
-            <p class="letra10">Calle - provincia </p>
+        <section class="seccion-informacion">
+            <section>
+                <section class="datos">
+                    <button Class="boton-circular"><i class="fas fa-map-marker-alt"></i></button>
+                    <section class="texto">
+                        <p class="negrilla">Localidad</p>
+                        <p class="letra10">Calle - provincia </p>
+                    </section>
 
-            <button Class="boton-circular"><i class="fas fa-phone-volume"></i></button>
-            <p class="negrilla">Telefono</p>
-            <p class="letra10">Numero de telefono</p>
+                </section>
 
-            <button Class="boton-circular"><i class="fas fa-envelope-open-text"></i></button>
-            <p class="negrilla">Correo Electronico</p>
-            <p class="letra10">Direccion de correo</p>
+                <selection class="datos">
+                    <button Class="boton-circular"><i class="fas fa-phone-volume"></i></button>
+                    <section class="texto">
+                        <p class="negrilla">Telefono</p>
+                        <p class="letra10">Numero de telefono</p>
+                    </section>
 
-            <img src="img/logocafe.png">
+                </selection>
+
+                <selection class="datos">
+                    <button Class="boton-circular"><i class="fas fa-envelope-open-text"></i></button>
+                    <section class="texto">
+                        <p class="negrilla">Correo Electronico</p>
+                        <p class="letra10">Direccion de correo</p>
+                    </section>
+                </selection>
+
+            </section>
+
+            <img src="img/logocafe.png" class="logo-cafe">
         </section>
 
         <!-- Derechos Deservados -->
