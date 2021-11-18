@@ -28,7 +28,7 @@ main{
 .izquierda{
     background-image: url("../img/delivery.jpg");
     background-size: 100% 100%;
-    width: 50%;
+    flex-grow: 1;
     height: 600px;
     margin: 25px 2px 25px 15px;
     border-radius: 10px;
@@ -52,7 +52,7 @@ main{
 
 .derecha{
     background-color: #FFFFFF;
-    width: 50%;
+    flex-grow: 1;
     height: 600px;
     margin: 25px 15px 25px 2px;
     border-radius: 10px;
@@ -97,5 +97,3 @@ footer{
     height: 100px;
     color: #F3F3F3;
 }
-
-terminado
