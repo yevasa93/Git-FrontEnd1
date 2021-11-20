@@ -1,15 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .tipo-letra{
     font-family: 'Roboto', Arial, sans-serif;
 }
 
 .letra25{
     font-size: 25px;
-    margin:0px;
 }
 
 .letra15{
     font-size: 15px;
-    margin:0px;
 }
 
 .letra13{
@@ -18,12 +21,10 @@
 
 .letra10{
     font-size: 10px;
-    margin:0px;
 }
 
 .negrilla{
     font-weight:bold;
-    margin: 0px;
 }
 
 .letracafe{
@@ -38,10 +39,9 @@
 /* barra superior negra */
 .barra-negra{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 60px 5px;
+    padding: 2px 10vw;
     background-color: black;
     color: white;
 }
@@ -49,10 +49,9 @@
 /* barra de menu principal naranja */
 .barra-naranja{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 15px 5px;
+    padding: 5px 15px;
     background-color: #F0A83E;
     color: white;
 }
@@ -83,7 +82,7 @@
     background-color: white;
     padding: 10px;
     border-radius: 5px;
-    margin: 0px;
+    margin: 15px 0px;
 }
 
 .boton-comederos{
@@ -94,6 +93,7 @@
     height: 50px;
     border-width: 0px;
     border-radius: 5px;
+    margin: 15px 0px;
 }
 
 /* seccion media de productos */
@@ -101,7 +101,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0px 50px;
+    padding: 20px 0px 40px;
 }
 
 .huella-grande-naranja{
@@ -113,14 +113,13 @@
 .letra40{
     font-size: 40px;
     margin: 20px;
+    text-align: center;
 }
 
 /* seccion productos */
 .productos{
     display: flex;
-    flex-direction:row;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .tarjeta{
@@ -128,12 +127,13 @@
     flex-direction:column;
     align-items: center;
     background: #FBFAF6;
+    width: auto;
     padding: 10px;
     margin: 20px;
 }
 
 .img-producto{
-    width: 300px;
+    width: 100%;
     height: auto;
 }
 
@@ -143,6 +143,10 @@
     flex-direction: column;
     align-items: center;
     margin: 80px;
+}
+
+.contactanos section{
+    display: flex;
 }
 
 .boton-resetear{
@@ -170,9 +174,9 @@
 /* barra naranja inferior de correo para novedades */
 .barra-naranja-inferior{
     display:flex;
-    flex-direction: row;
     justify-content: space-between;
-    padding: 5px 10px;
+    align-items: center;
+    padding: 5px 2vw;
     background-color: #F0A83E;
     color: white;
 }
@@ -191,7 +195,6 @@
 /* Informacion general localidad, telefono y correo */
 .seccion-informacion{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background-color: #3C2313;
@@ -210,7 +213,9 @@
     margin: 0px 20px;
 }
 
-.boton-circular{
+.fa-map-marker-alt, .fa-phone-volume, .fa-envelope-open-text{
+    color: white;
+    font-size: 2.2em;
     background-color: #8A8787;
     width: 50px;
     height: 50px;
@@ -218,10 +223,8 @@
     border-style: solid;
     border-color: #786960;
     border-width: 3px;
-}
-.fa-map-marker-alt, .fa-phone-volume, .fa-envelope-open-text{
-    color: white;
-    font-size: 2.2em;
+    text-align: center;
+    padding-top: 7px
 }
 
 .logo-cafe{
@@ -234,4 +237,40 @@
     background-color: black;
     color: white;
     text-align: center;
+    padding: 2px;
+}
+
+
+@media (max-width: 480px) {
+
+    .barra-negra{
+        display: none;
+    }
+
+    .banner-interno{
+        align-items: flex-end;
+    }
+
+    .fraseletra30{
+        font-size: 25px;
+    }
+
+    .productos{
+        flex-direction: column;
+        padding: 0px 20vw;
+    }
+
+
+
+    .barra-naranja-inferior{
+        flex-direction: column;
+    }
+
+    .boton-resetear, .boton-enviar{
+        width: 50vw;
+    }
+
+    .seccion-informacion{
+        flex-direction: column-reverse;
+    }
 }
