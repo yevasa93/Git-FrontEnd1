@@ -56,6 +56,10 @@
     color: white;
 }
 
+.fa-paw{
+    margin: 0px 0px 0px 15px;
+}
+
 /* seccion banner */
 .banner-imagen{
     display: flex;
@@ -259,8 +263,6 @@
         flex-direction: column;
         padding: 0px 20vw;
     }
-
-
 
     .barra-naranja-inferior{
         flex-direction: column;
