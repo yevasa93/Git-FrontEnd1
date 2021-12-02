@@ -1,0 +1,411 @@
+/* ---------------- Aspectos Generales ----------------*/
+
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 500;
+    border: none;
+}
+
+header, main{
+    margin: 3% 6% 0px;
+}
+
+.boton-naranja{
+    background-color:rgb(242, 95, 58);
+    color:white;
+    width: 134px;
+    height: 44px;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    cursor: pointer;
+}
+
+#boton-blanco{
+    background-color:#FFFFFF;
+    color:rgb(242, 95, 58);
+    width: 134px;
+    height: 44px;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 10px 20px;
+    margin: 30px 0px;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.seccion{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 7vh;
+}
+
+/* ---------------- Header ----------------*/
+header .seccion{
+    align-items: center;
+}
+
+#menu{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    color:rgb(35, 44, 81);
+}
+
+#menu li{
+    padding: 0px 28px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+}
+
+#hamburguesa{
+    display: none;
+}
+
+p{
+    line-height:25px
+}
+
+/* ---------------- Body ----------------*/
+
+/* ---------------- seccion1: titulo principal e imagen ----------------*/
+#seccion1{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 58px;
+    color: rgb(35, 44, 81);
+}
+
+#seccion1 p{
+    margin: 28px 0;
+    color: rgb(143, 148, 167);
+}
+
+/* ---------------- seccion2: caracteristicas de manage ----------------*/
+
+h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 114.6%;
+    color: rgb(35, 44, 81);
+}
+
+.parrafo-gris{
+    color: rgb(143, 148, 167);
+}
+
+#seccion2 p{
+    margin: 28px 0px;
+}
+
+.sub-caracteristica{
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    line-height: 23px;
+    color: rgb(35, 44, 81);
+}
+
+.sub-caracteristica span{
+    background-color:rgb(242, 95, 58);
+    color:white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-right: 28px;
+}
+
+#caracteristicas{
+    width: 600px;
+}
+
+#caracteristicas .parrafo-gris{
+    color: rgb(143, 148, 167);
+    margin: 18px 0 40px 100px;
+}
+
+/* ---------------- seccion3: Comentarios ----------------*/
+
+#seccion3{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 8%;
+}
+
+#comentarios{
+    width:100%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.box-comentario{
+    background-color:rgb(249, 249, 249);
+    text-align: center;
+    margin: 74px 0px 50px;
+    padding: 0px 20px;
+    width: 400px;
+}
+
+.box-comentario .parrafo-gris{
+    color: rgb(143, 148, 167);
+    margin: 20px 40px;
+    margin-left: 25px;
+}
+
+.box-comentario img{
+    position:relative;
+    width: 70px;
+    top: -35px;
+}
+
+#carrusel{
+    display: none;
+    margin: 0 0 8%;
+}
+
+/* ---------------- Footer ----------------*/
+
+/* ---------------- footer naranja ----------------*/
+
+#footer-naranja{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(242, 95, 58);
+    padding: 70px 6%;
+}
+
+#footer-naranja p{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: white;
+
+}
+
+/* ---------------- footer negro ----------------*/
+
+#footer-negro{
+    display:flex;
+    justify-content:space-between;
+    background-color: rgb(29, 30, 37);
+    padding: 40px 6% 0;
+}
+
+#footer-negro-1{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    height: 130px;
+    width: 200px; 
+}
+
+#iconos{
+    display:flex;
+    justify-content:space-around;
+    font-size: 22px;
+    width: 100%;
+    color: white;
+}
+
+#iconos a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer-negro-2{
+    display:flex;
+    justify-content:space-around;
+    width: 50%;
+}
+
+#footer-negro-2 a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer-negro-2 li{
+    margin: 10px 0px;
+}
+
+#footer-negro-3{
+    width:300px;
+}
+
+#correo{
+    Width:70%;
+    Height:44px;
+    border-radius: 50px;
+}
+
+#submit{
+    Width:25%;
+    Height:44px;
+    background-color:rgb(242, 95, 58);
+    color:white;
+    border-radius: 50px;
+    margin: 0 5px;
+}
+
+#copyright{
+    display:flex;
+    justify-content: flex-end;
+    background-color: rgb(29, 30, 37);
+    color: rgb(143, 148, 167);
+    padding: 0px 6% 3%;
+}
+
+/* ---------------- Pseudoselectores ---------------- */
+
+.boton-naranja:hover, #submit:hover{
+    background-color: rgb(241, 184, 169);
+}
+
+#boton-blanco:hover{
+    color: rgb(241, 184, 169);
+}
+
+#menu a:hover{
+    color: rgb(143, 148, 167);
+}
+
+#footer-negro-2 a:hover, #iconos a:hover{
+    color: rgb(242, 95, 58);
+}
+
+/* ----------------------------------------------------------------------*/
+/* --------------------------- version mobile ---------------------------*/
+/* ----------------------------------------------------------------------*/
+
+@media (max-width: 375px){
+    
+    #menu, header .boton-naranja{
+        display:none;
+    }
+
+    header, main{
+        margin: 8% 6% 0px;
+    }
+
+    h1{font-size: 35px; font-weight: bold;}
+    h2{font-size: 25px; font-weight: bold;}
+    h3, p{font-size: 12px; font-weight: bold;}
+
+    #hamburguesa{
+        display:unset;
+        font-size: 30px;
+    }
+
+    header img, #footer-negro-1 img{
+        height:20px;
+        width: 120px;
+    }
+
+/* ---------------- seccion1: titulo principal e imagen ----------------*/
+
+    main .seccion:nth-child(1){
+        display:flex;
+        flex-direction: column-reverse;
+    }
+
+    #seccion1{
+        align-items: center;
+    }
+
+    #seccion1 h1, #seccion1 p, #seccion2 h2, #seccion2 p, #footer-naranja p{
+        text-align: center;
+    }
+
+/* ---------------- seccion2: caracteristicas de manage ----------------*/
+
+    main .seccion:nth-child(2){
+        display:flex;
+        flex-direction: column;
+    }
+
+    .sub-caracteristica span{
+        margin-right: 10px;
+    }
+    
+    #caracteristicas{
+        width: 300px;
+    }
+
+    #caracteristicas .parrafo-gris{
+        margin: 18px 0 40px 0;
+    }
+
+    .sub-caracteristica{
+        background-color: rgb(255, 237, 232);
+        border-radius: 30px 0px 0px 30px;
+    }
+
+/* ---------------- seccion3: Comentarios ----------------*/
+
+    #comentarios .box-comentario:nth-child(2n-1){
+    display:none;
+    }
+
+    #carrusel{
+        display: unset;
+    }
+
+/* ---------------- footer naranja ----------------*/
+
+    #footer-naranja{
+    display:flex;
+    flex-direction: column;
+    }
+
+/* ---------------- footer negro ----------------*/
+
+    #footer-negro{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    #footer-negro-1 {order:3; height: 80px; width: 100%;}
+    #footer-negro-1 img{order:2}
+    #footer-negro-1 #iconos{order:1}
+
+    #iconos{
+        font-size: 32px;
+        margin: 0 0 15%;
+    }
+
+    #footer-negro-2{
+        order:2; 
+        width:100%;
+        margin: 10% 0;
+    }
+    #footer-negro-3{order:1}
+
+    #copyright{
+        justify-content: center;
+        padding: 30% 3% 6%;
+    }
+
+}
+
+
+
